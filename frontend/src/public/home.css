@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    
+}
+
+.mainH{
+    margin-top: 2.5em;
+    text-shadow: 
+    1px 1px 0 #000,  
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000; /* Border effect */
+    color: rgb(255, 242, 178);
+    font-family: futura;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.paraH{
+    color: white;
+    
+    text-align: center;
+    font-size: 1.8em;
+    justify-content: center;
+    margin: 2px 0 10px 0;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    background: rgb(0, 0, 0);
+    color: rgb(248, 247, 248);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, border-left, border-bottom, border-right,
+      box-shadow;
+  }
+  
+  .btn:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+      rgba(240, 46, 170, 0.2) 15px 15px;
+  }
+  
